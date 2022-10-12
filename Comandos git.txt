@@ -1,1 +1,15 @@
-Comando git 
+COMANDOS GIT.
+
+-Configurar nombre:
+git config --global user.name "Karla"
+
+-Para mostrar el nombre:
+git config --global user.name
+
+-Configurar email:
+git config --global user.email "karlachg7@gmail.com"
+
+-Para mostrar el email:
+git config --global user.email
+
+
