@@ -12,4 +12,9 @@ git config --global user.email "karlachg7@gmail.com"
 -Para mostrar el email:
 git config --global user.email
 
+-- Configurar colores en git para los diferentes estados de los archivos.
+* git config --global color.ui true
+
+- Conocer el status de nuestro proyecto, que archivos ya se agregaron que archivos no que archivos ya se subieron y que archivos no y que archivos modificamos
+* git status
 
