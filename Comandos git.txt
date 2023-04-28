@@ -21,3 +21,34 @@ git config --global user.email
 
 --COMANDO PARA BORRAR CAMBIOS Y LOS GUARDA EN UN STASH
 *git stash
+
+***** Comandos para subir un nuevo proyecto *****
+-git init 
+-git add -A
+-git commit -m "first commit"
+-git remote add origin URL 
+-git push -u origin master
+
+***** Comandos para subir cambios *****
+-git add -A
+-git commit -m "Cambio que se hizo"
+-git push -u origin master
+
+--Comando para bajar cambios.
+-git pull
+
+--Comando para actualizar.
+-git fetch
+
+***** COMANDO PARA RAMAS *****
+--Comando para crear una nueva rama.
+-git branch NOMBRE DE LA RAMA
+
+--Comando para mostrar las ramas locales 
+-git branch
+
+--Comando para mostrar las ramas remotas
+-git branch -r
+
+--Comado para moverte de una rama a otra 
+-git checkout "NOMRE DE LA RAMA"
