@@ -52,3 +52,6 @@ git config --global user.email
 
 --Comado para moverte de una rama a otra 
 -git checkout "NOMRE DE LA RAMA"
+
+--Coamdo para crear una rama y posicionarnos en ella con un solo comando
+-git checkout -b NOMBRE DE LA RAMA
