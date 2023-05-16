@@ -55,3 +55,9 @@ git config --global user.email
 
 --Coamdo para crear una rama y posicionarnos en ella con un solo comando
 -git checkout -b NOMBRE DE LA RAMA
+
+
+
+--Comando para saber a que repositorio remoto esta conectada
+-git config --get remote.origin.url
+
